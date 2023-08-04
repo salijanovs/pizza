@@ -7,7 +7,7 @@ const Succes = () => {
       <div className="succes-wrapper">
         <div className="succes-header">
           <p className="succes-text">Заказ успешно оформлен</p>
-          <Link to={"/pizza"} className="backToShop">
+          <Link to={"/"} className="backToShop">
             Вернуться в магазин
           </Link>
         </div>

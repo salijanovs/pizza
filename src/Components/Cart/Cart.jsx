@@ -21,7 +21,7 @@ const Cart = () => {
   const [paymentSucces, setPaymentSucces] = useState(false);
 
   useEffect(() => {
-    inSign || navigate("/pizza/register");
+    inSign || navigate("/register");
   }, []);
 
   const handleRemove = (id) => {
@@ -112,7 +112,7 @@ const Cart = () => {
             </div>
             <div className="cart-footer">
               <div className="cart-price_wrapper">
-                <Link to={"/pizza"} className="backToShop">
+                <Link to={"/"} className="backToShop">
                   Вернуться в магазин
                 </Link>
                 <p className="cart-footer_price">
