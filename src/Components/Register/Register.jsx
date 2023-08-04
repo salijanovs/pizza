@@ -19,11 +19,11 @@ const Register = () => {
   const inSign = useSelector((state) => state.auth.inSign);
 
   useEffect(() => {
-    inSign && navigate("/");
+    inSign && navigate("/pizza");
   }, [inSign]);
 
   const toLogin = () => {
-    navigate("/login");
+    navigate("/pizza/login");
   };
 
   const handleRegister = async (e) => {
@@ -32,7 +32,7 @@ const Register = () => {
     await account.create(ID.unique(), email, password, name).then(
       (response) => {
         dispatch(inSignSucces(response));
-        navigate("/");
+        navigate("/pizza");
         const promise = account.createJWT();
         promise.then(
           function (response) {

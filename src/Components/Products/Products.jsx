@@ -32,7 +32,7 @@ const Products = () => {
   }, [category]);
 
   const sendToCart = (product) => {
-    inSign ? dispatch(toCart(product)) : navigate("/register");
+    inSign ? dispatch(toCart(product)) : navigate("/pizza/register");
     setAlert(product.name);
     setTimeout(() => {
       setView(true);

@@ -16,11 +16,11 @@ const Login = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    inSign && navigate("/");
+    inSign && navigate("/pizza");
   }, [inSign]);
 
   const toRegister = () => {
-    navigate("/register");
+    navigate("/pizza/register");
   };
 
   const handleLogin = async (e) => {
@@ -29,7 +29,7 @@ const Login = () => {
     await account.createEmailSession(email, password).then(
       (response) => {
         dispatch(inSignSucces(response));
-        navigate("/");
+        navigate("/pizza");
 
         const promise = account.createJWT();
         promise.then(

@@ -36,10 +36,10 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/pizza/home" element={<Home />} />
+        <Route path="/pizza/register" element={<Register />} />
+        <Route path="/pizza/login" element={<Login />} />
+        <Route path="/pizza/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </BrowserRouter>

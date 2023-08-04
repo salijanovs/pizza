@@ -30,8 +30,6 @@ const Navbar = () => {
   const handleLogout = () => {
     dispatch(logout());
 
-    const promise = account.deleteSession("[SESSION_ID]");
-
     promise.then(
       function (response) {},
       function (error) {}
@@ -41,7 +39,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="container">
         <div className="navbar-wrapper">
-          <Link to={"/"}>
+          <Link to={"/pizza"}>
             <img src={navbarLogo} alt="" className="logo" />
           </Link>
           <div className="phone-text">+998 93 496-49-66</div>
@@ -50,7 +48,7 @@ const Navbar = () => {
               <h3 className="phone-text">{user.name}</h3>
               <Link
                 onClick={handleLogout}
-                to={"/register"}
+                to={"/pizza/register"}
                 className="auth-text"
               >
                 Выйти
@@ -58,10 +56,10 @@ const Navbar = () => {
             </div>
           ) : (
             <div className="auth">
-              <Link to={"/login"} className="auth-text">
+              <Link to={"/pizza/login"} className="auth-text">
                 Войти
               </Link>
-              <Link to={"/register"} className="auth-text">
+              <Link to={"/pizza/register"} className="auth-text">
                 Регестрация
               </Link>
             </div>
