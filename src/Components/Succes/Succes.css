@@ -1,0 +1,32 @@
+.succes {
+  padding: 100px 0;
+}
+.succes-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.succes-header {
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  padding: 43px 0;
+  background: #f3efef;
+}
+.succes-text {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.succes-footer {
+  text-align: center;
+  padding: 69px 0;
+  border-radius: 0 0 10px 10px;
+  background-color: #3fcf5e;
+}
+.succes-title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+}

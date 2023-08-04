@@ -1,0 +1,43 @@
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.phone-text {
+  color: #f7d22d;
+  font-weight: 700;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.auth {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+  align-items: center;
+}
+.auth-text {
+  color: #696f7a;
+  font-size: 16px;
+  font-weight: 700;
+}
+@media screen and (max-width: 670px) {
+  .phone-text {
+    display: none;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .auth-text {
+    font-size: 15px;
+  }
+  .auth {
+    gap: 20px;
+}
+}

@@ -1,0 +1,35 @@
+.filter {
+  margin-bottom: 80px;
+}
+
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.filter-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.filter-item {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0e0c0d;
+  cursor: pointer;
+}
+.filter-btn {
+  cursor: pointer;
+  padding: 13px 25px;
+  background-color: #f7d22d;
+  color: #231f20;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.active-category {
+  color: #f7d22d;
+}
