@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pizza/static/css/main.e3aa7af7.css",
-    "main.js": "/pizza/static/js/main.31da982c.js",
-    "static/media/navbar-logo.svg": "/pizza/static/media/navbar-logo.d1a6b3e5d3edf327e1f76bdd46d2c9df.svg",
-    "static/media/Close.svg": "/pizza/static/media/Close.449d69c595cf50bfe7cff04d7e94914e.svg",
-    "static/media/info-img4svg.svg": "/pizza/static/media/info-img4svg.34609ae3ea6dae54dedc7d2f905301ff.svg",
-    "static/media/info-img2.svg": "/pizza/static/media/info-img2.6c9082b480fb8872c5180cfc1168d5be.svg",
-    "static/media/info-img1svg.svg": "/pizza/static/media/info-img1svg.0f99877741f4109f48274103e6f2533f.svg",
-    "static/media/info-img3.svg": "/pizza/static/media/info-img3.02cde91af06643cbd0a71d1f5da3be95.svg",
-    "index.html": "/pizza/index.html",
-    "main.e3aa7af7.css.map": "/pizza/static/css/main.e3aa7af7.css.map",
-    "main.31da982c.js.map": "/pizza/static/js/main.31da982c.js.map"
+    "main.css": "/pizza-shop/static/css/main.e3aa7af7.css",
+    "main.js": "/pizza-shop/static/js/main.036e9230.js",
+    "static/media/navbar-logo.svg": "/pizza-shop/static/media/navbar-logo.d1a6b3e5d3edf327e1f76bdd46d2c9df.svg",
+    "static/media/Close.svg": "/pizza-shop/static/media/Close.449d69c595cf50bfe7cff04d7e94914e.svg",
+    "static/media/info-img4svg.svg": "/pizza-shop/static/media/info-img4svg.34609ae3ea6dae54dedc7d2f905301ff.svg",
+    "static/media/info-img2.svg": "/pizza-shop/static/media/info-img2.6c9082b480fb8872c5180cfc1168d5be.svg",
+    "static/media/info-img1svg.svg": "/pizza-shop/static/media/info-img1svg.0f99877741f4109f48274103e6f2533f.svg",
+    "static/media/info-img3.svg": "/pizza-shop/static/media/info-img3.02cde91af06643cbd0a71d1f5da3be95.svg",
+    "index.html": "/pizza-shop/index.html",
+    "main.e3aa7af7.css.map": "/pizza-shop/static/css/main.e3aa7af7.css.map",
+    "main.036e9230.js.map": "/pizza-shop/static/js/main.036e9230.js.map"
   },
   "entrypoints": [
     "static/css/main.e3aa7af7.css",
-    "static/js/main.31da982c.js"
+    "static/js/main.036e9230.js"
   ]
 }
