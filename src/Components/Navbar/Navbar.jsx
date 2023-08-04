@@ -29,7 +29,7 @@ const Navbar = () => {
 
   const handleLogout = () => {
     dispatch(logout());
-
+    const promise = account.deleteSession("[SESSION_ID]");
     promise.then(
       function (response) {},
       function (error) {}

@@ -36,7 +36,7 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/pizza/home" element={<Home />} />
+        <Route path="https://salijanovs.github.io/pizza" element={<Home />} />
         <Route path="/pizza/register" element={<Register />} />
         <Route path="/pizza/login" element={<Login />} />
         <Route path="/pizza/cart" element={<Cart />} />
